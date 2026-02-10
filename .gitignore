@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.tmp/
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/index.lock
