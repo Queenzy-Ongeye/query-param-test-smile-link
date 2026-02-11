@@ -67,7 +67,7 @@ app.post("/create-registration-link", async (req, res) => {
             data_privacy_policy_url: "https://mycompany.com",
             is_single_use: true,
             user_id: onboardingId,
-            redirect_url: "http://localhost:3000/app/onboarding/identity-verification2?onboarding",
+            redirect_url: cleanUrl,
             id_types: [{
                 country: "KE",
                 id_type: "ALIEN_CARD",
